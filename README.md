@@ -1,2 +1,2 @@
-# f_graphical_Horseshoe
+# tempered graphical Horsshoe
 simulations for tempered/fractional graphical Horsshoe
