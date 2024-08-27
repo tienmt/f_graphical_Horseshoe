@@ -1,5 +1,5 @@
 library(GHS)
-
+# This Gibbs sampler is an modification of the Gibbs sampler from GHS package.
 f_GHS_est <- function(S,n,burnin,nmc,alpha ){
   p <- nrow(S)
   omega_save <- array(0, dim=c(p,p,nmc))
