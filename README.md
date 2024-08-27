@@ -1,5 +1,9 @@
 # tempered graphical Horsshoe
-simulations for tempered/fractional graphical Horsshoe.
+simulations for tempered/fractional graphical Horsshoe. See paper: "Mai, T. T. (2024). Concentration of a sparse Bayesian model with Horseshoe prior in estimating high-dimensional precision matrix. arXiv:2406.14269."
+
+* need to load file 'Untitled.R' and 'Omega0_p100_rnd.Rdata'.
+* Then run the file 'sim_dense.R' for simulations with dense precision matrices.
+* run the file 'simu_sparse.R' for simulations with sparse precision matrices.
 
 The main Gibbs sampler is due to "Li, Y., Craig, B. A., & Bhadra, A. (2019). The graphical horseshoe estimator for inverse covariance matrices. Journal of Computational
 and Graphical Statistics, 28(3), 747–757."
